@@ -41,9 +41,7 @@
                     android:onClick="changeActivity"/>
 
             </LinearLayout>
-
         </androidx.appcompat.widget.Toolbar>
-
     </com.google.android.material.appbar.AppBarLayout>
 
     <FrameLayout
@@ -51,9 +49,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="2"
         android:background="@color/initialColor"
-        android:onClick="animation"
-
-        >
+        android:onClick="animation">
 
         <ImageView
             android:id="@+id/imgSun"
